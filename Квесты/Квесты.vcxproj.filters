@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Episode">
+      <UniqueIdentifier>{3a7bf676-3091-4de8-9b11-061bb3cbf970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Episode">
+      <UniqueIdentifier>{ab02d3f9-9510-49ec-8ddf-94ad052597df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Episode\Questions">
+      <UniqueIdentifier>{2b4e6ed9-7369-4ed7-b345-a4ad6586a907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Episode\Questions">
+      <UniqueIdentifier>{d44f53f3-d6d1-48c8-961b-df984cfd1b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Episode\Questions\FileReader">
+      <UniqueIdentifier>{b6834c66-019b-4a36-8180-43320188eb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Episode\Questions\FileReader">
+      <UniqueIdentifier>{3f86957e-faed-4f84-8191-db3652b93564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Episode\Questions\StatisticalData">
+      <UniqueIdentifier>{8fe773c7-c28b-47b9-8251-b012d305bb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Episode\Questions\StatisticalData">
+      <UniqueIdentifier>{43d47535-d0c3-4d78-b315-661a56058619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Episode\Questions\FileReader\Database">
+      <UniqueIdentifier>{afb33649-2d92-4e88-86d7-b68004eed4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Episode\Questions\FileReader\Database">
+      <UniqueIdentifier>{2454b245-9849-4df1-b1be-1bf4d9aedcd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Квесты.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Episode.cpp">
+      <Filter>Исходные файлы\Episode</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\Question.cpp">
+      <Filter>Исходные файлы\Episode\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\Question_DTLAB.cpp">
+      <Filter>Исходные файлы\Episode\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\FileReader.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\StatisticalData\StatisticalData.cpp">
+      <Filter>Исходные файлы\Episode\Questions\StatisticalData</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\Database\Answers.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\Database\Episodes.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\Database\Questions.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\Database\Statuses.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\FileReader\Database\ListStatisticalData.cpp">
+      <Filter>Исходные файлы\Episode\Questions\FileReader\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\Question_DCAF.cpp">
+      <Filter>Исходные файлы\Episode\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="Episode\Questions\Question_IFP.cpp">
+      <Filter>Исходные файлы\Episode\Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionBack.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Episode\Episode.h">
+      <Filter>Файлы заголовков\Episode</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\Question.h">
+      <Filter>Файлы заголовков\Episode\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\Question_DTLAB.h">
+      <Filter>Файлы заголовков\Episode\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\QuestionTypes.h">
+      <Filter>Файлы заголовков\Episode\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\FileReader\FileReader.h">
+      <Filter>Файлы заголовков\Episode\Questions\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\StatisticalData\StatisticalData.h">
+      <Filter>Файлы заголовков\Episode\Questions\StatisticalData</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\FileReader\Database\Database.h">
+      <Filter>Файлы заголовков\Episode\Questions\FileReader\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\Question_DCAF.h">
+      <Filter>Файлы заголовков\Episode\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\Questions\Question_IFP.h">
+      <Filter>Файлы заголовков\Episode\Questions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionBack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
